@@ -1,3 +1,19 @@
+# LLaMA_v1 running on 8GPU with 11GB each.
+
+😕 To run a LLaMA, a GPU with a minimum of 16GB or more of memory is required.  
+*(For example, LLaMA 7B can be run on 16GB 4090Ti GPU, occupying 15GB memory.)*  
+
+😮 However, such GPUs are really expensive.  
+For instance, the RTX 3090Ti with 24GB of memory costs around $2000,  
+whereas the RTX 3060 with 12GB of memory is priced at approximately $330.  
+Consequently, it may be more cost-effective to use two RTX 3060 GPUs instead of a single RTX 3090Ti.  
+
+😄 Our server is equipped with only RTX 2080Ti GPUs, each having 11GB of VRAM.  
+Although we cannot allocate a LLaMa model on single GPU, we can allocate a LLaMA model on two GPU.  
+
+😀 We have made a slight modifications to the original source code to enable inter-layer model parallelism.  
+Now we can run LLaMA-30B, which requires a GPU with a minimum of 16GB in original source, on our Server.
+
 # LLaMA 
 
 This repository is intended as a minimal, hackable and readable example to load [LLaMA](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/) ([arXiv](https://arxiv.org/abs/2302.13971v1)) models and run inference.
