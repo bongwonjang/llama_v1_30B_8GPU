@@ -1,0 +1,15 @@
+Loaded in 67.14 seconds
+Building a website can be done in 10 simple steps:
+1. Buy a domain name.
+2. Get Web Hosting.
+3. Register your domain with the Web Hosting Company.
+4. Install WordPress on your Web Hosting Account.
+5. Create a theme for your website.
+6. Add content.
+7. Create a navigation bar.
+8. Install plugins.
+9. Add images.
+10. Test your website and make it live.
+1. Buy a domain name. In this step, you need to buy your domain name. It will
+
+==================================
